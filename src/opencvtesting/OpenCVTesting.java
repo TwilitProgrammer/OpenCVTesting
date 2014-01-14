@@ -101,7 +101,7 @@ public class OpenCVTesting
         Mat circles = new Mat();
         
         Imgproc.HoughCircles(frame_gray, circles, Imgproc.CV_HOUGH_GRADIENT, cWindow.get_dp(), frame_gray.rows()/8, cWindow.get_param1(), cWindow.get_param2(), 0, 0);
-        System.out.println(circles.rows());
+        //System.out.println(circles.rows());
         
         for(int i = 0; i < circles.cols(); i++)
         {

@@ -54,7 +54,7 @@ public class CameraWindow extends javax.swing.JFrame
         sld_dpVal.setPaintTicks(true);
         sld_dpVal.setSnapToTicks(true);
         sld_dpVal.setToolTipText("");
-        sld_dpVal.setValue(5);
+        sld_dpVal.setValue(1);
         sld_dpVal.addChangeListener(new javax.swing.event.ChangeListener()
         {
             public void stateChanged(javax.swing.event.ChangeEvent evt)
@@ -67,12 +67,12 @@ public class CameraWindow extends javax.swing.JFrame
 
         sld_param1.setMajorTickSpacing(100);
         sld_param1.setMaximum(600);
-        sld_param1.setMinimum(1);
         sld_param1.setMinorTickSpacing(20);
         sld_param1.setPaintLabels(true);
         sld_param1.setPaintTicks(true);
         sld_param1.setSnapToTicks(true);
         sld_param1.setToolTipText("");
+        sld_param1.setValue(100);
         sld_param1.addChangeListener(new javax.swing.event.ChangeListener()
         {
             public void stateChanged(javax.swing.event.ChangeEvent evt)
@@ -85,7 +85,6 @@ public class CameraWindow extends javax.swing.JFrame
 
         sld_param2.setMajorTickSpacing(50);
         sld_param2.setMaximum(300);
-        sld_param2.setMinimum(1);
         sld_param2.setMinorTickSpacing(10);
         sld_param2.setPaintLabels(true);
         sld_param2.setPaintTicks(true);

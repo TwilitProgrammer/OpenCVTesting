@@ -86,7 +86,7 @@
         <Property name="paintTicks" type="boolean" value="true"/>
         <Property name="snapToTicks" type="boolean" value="true"/>
         <Property name="toolTipText" type="java.lang.String" value=""/>
-        <Property name="value" type="int" value="5"/>
+        <Property name="value" type="int" value="1"/>
       </Properties>
       <Events>
         <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="sld_dpValStateChanged"/>
@@ -101,12 +101,12 @@
       <Properties>
         <Property name="majorTickSpacing" type="int" value="100"/>
         <Property name="maximum" type="int" value="600"/>
-        <Property name="minimum" type="int" value="1"/>
         <Property name="minorTickSpacing" type="int" value="20"/>
         <Property name="paintLabels" type="boolean" value="true"/>
         <Property name="paintTicks" type="boolean" value="true"/>
         <Property name="snapToTicks" type="boolean" value="true"/>
         <Property name="toolTipText" type="java.lang.String" value=""/>
+        <Property name="value" type="int" value="100"/>
       </Properties>
       <Events>
         <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="sld_param1StateChanged"/>
@@ -121,7 +121,6 @@
       <Properties>
         <Property name="majorTickSpacing" type="int" value="50"/>
         <Property name="maximum" type="int" value="300"/>
-        <Property name="minimum" type="int" value="1"/>
         <Property name="minorTickSpacing" type="int" value="10"/>
         <Property name="paintLabels" type="boolean" value="true"/>
         <Property name="paintTicks" type="boolean" value="true"/>
